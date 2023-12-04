@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [nobeCommerce regression test]">
+  <test thread-count="5" name="regression test(failed)">
+    <classes>
+      <class name="tests.LoginPageTest">
+        <methods>
+          <include name="userCanLoginSuccessfully"/>
+          <include name="closeBrowser"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- tests.LoginPageTest -->
+    </classes>
+  </test> <!-- regression test(failed) -->
+</suite> <!-- Failed suite [nobeCommerce regression test] -->
